@@ -1,0 +1,26 @@
+{
+  "name": "epic-expressions",
+  "version": "1.0.0",
+  "description": "WebApp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dane85/epic-expressions.git"
+  },
+  "keywords": [
+    "Web",
+    "Development"
+  ],
+  "author": "Dane Watts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dane85/epic-expressions/issues"
+  },
+  "homepage": "https://github.com/Dane85/epic-expressions#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
