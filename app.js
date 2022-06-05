@@ -3,14 +3,28 @@ const bodyParser = require('body-parser')
 const app = express()
 const port = 3000
 
+//ejs view engine
 app.set('view engine', 'ejs')
-app.use(express.static('public'))
+//pulls local files
+app.use(express.static(__dirname + '/public'));
+//body parser to help with development refresh
 app.use(bodyParser.urlencoded({ extended: true }))
 
 
+//render the home page
 app.get('/', (req, res) => {
     res.render('pages/index')
 })
+
+
+
+
+
+
+
+
+
+//listening port
 app.listen(port, () => {
   console.log(`App listening at port ${port}`)
 })
